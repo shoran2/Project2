@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+body {
+	background-color: #FC4F4F;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+}
+
+.head {
+	width: 100%;
+	margin: auto;
+	padding: 1em;
+	font-family: 'Libre Barcode 39 Text', cursive;
+	color: #FFF6DE;
+	font-size: xx-large;
+}
+
+.main {
+	width: 100%;
+	margin: auto;
+	padding: 2em;
+	font-family: 'Overpass Mono', monospace;
+	color: black;
+	font-size: large;
+}
+
+.button {
+    background-color: #FFF6DE;
+    border: 1px solid #FC4F4F;
+    color: #FC4F4F;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    cursor: pointer;
+}
